@@ -3,7 +3,7 @@ trigger:
 
 variables:
   webRepository: 'web'
-  tag: '$(Build)'
+  tag: '$(Build.tailspinspacegame27866.azurecr.io)'
 - stage: 'Build'
   displayName: 'Build and push'
   jobs:  
